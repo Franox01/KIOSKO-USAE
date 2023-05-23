@@ -1,0 +1,118 @@
+/*CODIGO PARA CREAR EL DISEÑO DE LA OFICINA*/
+.oficina {
+    width: 1010px;
+    height:500px;
+    background-color: #EEE;
+    border: 2px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 140px;
+}
+
+.Servicio-al-Personal{
+    width: 200px;
+    height: 100px;
+    background-color: #3cbb38f6;
+    border: 1px solid #333;
+    float: left;
+}
+
+.Planeacion{
+    width: 200px;
+    height: 100px;
+    background-color: #e5ff00f6;
+    border: 1px solid #333;
+    float: left;
+}
+
+.Water{
+    width: 200px;
+    height: 100px;
+    background-color: #fffffff6;
+    border: 1px solid #333;
+    float: left;
+}
+
+.Water-Separacion{
+    width: 40px;
+    height: 100px;
+    background-color: #000000;
+    right: 100px;
+    position: absolute;
+    left: 490px;
+}
+
+.Promocion-Servivo-Profecional-Docente
+{
+    width: 200px;
+    height: 100px;
+    background-color: #960a8ff6;
+    border: 1px solid #333;
+    float: left;
+}
+
+
+.Acreditacion-Incorporacion
+{
+    width: 200px;
+    height: 100px;
+    background-color: #051efff6;
+    border: 1px solid #333;
+    float: left;
+}
+
+
+
+.pasillo {
+    width: 50px;
+    height: 600px;
+    background-color: #DDD;
+    margin: 10px;
+}
+
+
+.Informatica{
+    width: 200px;
+    height: 100px;
+    background-color: #f10000f6;
+    border: 1px solid #333;
+    margin: 210px 0px
+}
+
+.Informatica-Parte2{
+    width: 90px;
+    height: 85px;
+    background-color: #f10000f6;
+    border: 1px solid #333;
+    margin: 99px 0px
+}
+
+
+.Eficiencia-Administrativa{
+    width: 200px;
+    height: 186px;
+    background-color: #f14400f6;
+    border: 1px solid #333;
+    margin: 210px 0px
+}
+
+.Lobby{
+    width: 200px;
+    height: 186px;
+    background-color: #fffffff6;
+    border: 1px solid #333;
+    margin: 210px 0px
+}
+
+/*INFORMATICA*/
+.M-Informatica{
+    background-color: #000000;
+    border: 10px black;
+}
+
+
+/*RESPONSIVE*/
+@media only screen and (min-width:220px) and (max-width:1168px){
+  
+    }
