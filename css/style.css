@@ -105,14 +105,46 @@
     margin: 210px 0px
 }
 
-/*INFORMATICA*/
-.M-Informatica{
-    background-color: #000000;
-    border: 10px black;
+.Mejora-Procesos{
+    width: 200px;
+    height: 186px;
+    background-color: #0fee2df6;
+    border: 1px solid #333;
+    margin: 210px 0px
 }
 
 
-/*RESPONSIVE*/
-@media only screen and (min-width:220px) and (max-width:1168px){
-  
-    }
+.Jefatura{
+    width: 200px;
+    height: 186px;
+    background-color: #000000f6;
+    border: 1px solid #333;
+    margin: 210px 0px
+}
+
+
+.SalaJuntas{
+    width: 100px;
+    height: 210px;
+    background-color: #fffffff6;
+    border: 1px solid #333;
+    margin: 100px 100px
+}
+
+
+.T-Informatica
+{
+background-color: rgb(65, 70, 65);
+width: 1120px;
+height: 220px;
+}
+
+/*INFORMATICA MODULOS*/
+.Enable-Informatica
+{
+background-color: green;
+width: 1120px;
+height: 220px;
+}
+
+
