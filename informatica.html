@@ -16,19 +16,11 @@
   <div class="Modulo-style">
     <h2>INFORMATICA</h2>
   </div>
-
-
-  <button id="submit" class="enable">DISPONIBLE</button>
-  
-  <label for="hours">Horas:</label>
-  <input type="number" id="hours" min="0" max="23" value="0">
-  <label for="minutes">Minutos:</label>
-  <input type="number" id="minutes" min="0" max="59" value="0">
-  <button onclick="startTimer()" >Iniciar</button>
-  <button onclick="stopTimer()" >Detener</button>
-  <div id="timer"></div>
- 
-
+  <div id="modulo2" class="modulo-container">
+    <button onclick="toggleDisponibilidad(2)" class="disponible">Disponible</button>
+    <div id="temporizador2" class="temporizador"></div>
+   
+  </div> 
   <script src="app.js"></script>
 </body>
 </html>

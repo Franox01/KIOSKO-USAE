@@ -1,16 +1,45 @@
-/*CODIGO PARA CREAR EL DISEÑO DE LA OFICINA*/
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.buttons-container {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+
+.buttons-container button {
+    margin: 5px 0;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    background-color: #EEE;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.buttons-container button:hover {
+    background-color: #DDD;
+}
+
+/* Estilos del mapa-croquis de la oficina */
+
 .oficina {
     width: 1010px;
-    height:500px;
+    height: 500px;
     background-color: #EEE;
     border: 2px solid #333;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    left: 140px;
+    left: 300px;
 }
 
-.Servicio-al-Personal{
+.Servicio-al-Personal {
     width: 200px;
     height: 100px;
     background-color: #3cbb38f6;
@@ -18,7 +47,7 @@
     float: left;
 }
 
-.Planeacion{
+.Planeacion {
     width: 200px;
     height: 100px;
     background-color: #e5ff00f6;
@@ -26,7 +55,7 @@
     float: left;
 }
 
-.Water{
+.Water {
     width: 200px;
     height: 100px;
     background-color: #fffffff6;
@@ -34,7 +63,7 @@
     float: left;
 }
 
-.Water-Separacion{
+.Water-Separacion {
     width: 40px;
     height: 100px;
     background-color: #000000;
@@ -43,8 +72,7 @@
     left: 490px;
 }
 
-.Promocion-Servivo-Profecional-Docente
-{
+.Promocion-Servivo-Profecional-Docente {
     width: 200px;
     height: 100px;
     background-color: #960a8ff6;
@@ -52,17 +80,13 @@
     float: left;
 }
 
-
-.Acreditacion-Incorporacion
-{
+.Acreditacion-Incorporacion {
     width: 200px;
     height: 100px;
     background-color: #051efff6;
     border: 1px solid #333;
     float: left;
 }
-
-
 
 .pasillo {
     width: 50px;
@@ -71,72 +95,64 @@
     margin: 10px;
 }
 
-
-.Informatica{
+.Informatica {
     width: 200px;
     height: 100px;
     background-color: #f10000f6;
     border: 1px solid #333;
-    margin: 210px 0px
+    margin: 210px 0px;
 }
 
-.Informatica-Parte2{
+.Informatica-Parte2 {
     width: 90px;
     height: 85px;
     background-color: #f10000f6;
     border: 1px solid #333;
-    margin: 99px 0px
+    margin: 99px 0px;
 }
 
-
-.Eficiencia-Administrativa{
+.Eficiencia-Administrativa {
     width: 200px;
     height: 186px;
     background-color: #f14400f6;
     border: 1px solid #333;
-    margin: 210px 0px
+    margin: 210px 0px;
 }
 
-.Lobby{
+.Lobby {
     width: 200px;
     height: 186px;
     background-color: #fffffff6;
     border: 1px solid #333;
-    margin: 210px 0px
+    margin: 210px 0px;
 }
 
-.Mejora-Procesos{
+.Mejora-Procesos {
     width: 200px;
     height: 186px;
     background-color: #0fee2df6;
     border: 1px solid #333;
-    margin: 210px 0px
+    margin: 210px 0px;
 }
 
-
-.Jefatura{
+.Jefatura {
     width: 200px;
     height: 186px;
     background-color: #000000f6;
     border: 1px solid #333;
-    margin: 210px 0px
+    margin: 210px 0px;
 }
 
-
-.SalaJuntas{
+.SalaJuntas {
     width: 100px;
     height: 210px;
     background-color: #fffffff6;
     border: 1px solid #333;
-    margin: 100px 100px
+    margin: 100px 100px;
 }
 
-
-.T-Informatica
-{
-background-color: rgb(65, 70, 65);
-width: 1120px;
-height: 220px;
+.T-Informatica {
+    background-color: rgb(65, 70, 65);
+    width: 1120px;
+    height: 220px;
 }
-
-
